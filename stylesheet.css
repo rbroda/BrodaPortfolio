@@ -1,0 +1,131 @@
+* {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#contactm {
+    border-color: black;
+    padding: 50px;
+    border-style: ridge;
+}
+
+.navlist {
+  list-style-type: none;
+  float: right;
+}
+
+.navlist:nth-child(3), .navlist:nth-child(2) {
+    border-right: 1px solid black;
+}
+
+.navlist a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+h1 {
+    background-color: burlywood;
+    font-family: 'Lobster', cursive;
+}
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#tiger, #sandwich, #music {
+    box-shadow: 5px 5px 18px black;
+    border-radius: 20px;
+    max-width: calc(100%/3);
+    object-fit: contain;
+    height: auto;
+}
+h1, p {
+    text-align: center;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+.bands, .facts {
+    margin-left: 35%;
+    margin-right: 37%;
+    
+}
+form input, textarea{
+    background-color: white;
+}
+#submitbttn {
+    background-color: cornflowerblue;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+* {
+    background-color: floralwhite
+}
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tiger, #sandwich, #music {
+    box-shadow: 5px 5px 18px black;
+    border-radius: 30px;
+    max-width: 90%;
+    object-fit: contain;
+    height: auto;
+}
+    body{
+        background-color: ;
+    }
+.navbar {
+     position: absolute;
+        margin-top: 50px;
+        float: left;
+        display: flex;
+        flex-direction: column-reverse;
+        line-height: .5;
+}
+.navlist:nth-child(3), .navlist:nth-child(2) {
+    border-right: none;
+}
+.navlist {
+  list-style-type:none;
+  float: none;
+}
+.navlist a {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    color: black;
+    text-align: left;
+    padding: auto auto;
+    text-decoration: underline;
+}
+#home, #about, #contact {
+    direction: ;
+}
+a:hover {
+  color: red;
+}
+h1 {
+    background-color: crimson;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.homep {
+    padding-top: 100px;    
+}
